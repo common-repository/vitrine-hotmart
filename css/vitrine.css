@@ -1,0 +1,93 @@
+  /*Vitrine ao todo:*/
+#tabela_ml {
+	text-align:center;
+	width:100%;
+	margin:10px 0 10px;
+		border:1px solid #DDD;
+		padding:10px;
+		background-color: #FAFAFA;
+	-moz-border-radius: 6px;
+	-khtml-border-radius: 6px;
+	-webkit-border-radius: 6px;
+	border-radius: 6px;
+}
+
+/*Título da Vitrine*/
+.mlv_vititle{
+	font-weight:bold;
+	text-align: center;
+	padding: 0 0 8px;
+	font-size: 13px;
+}
+
+/*Cada quadrado de oferta*/
+.celula_ml {
+	text-align:center;
+	padding:2 2px;
+	/*border:1px solid #eee;*/
+	vertical-align:top;
+}
+
+/*Configurações da imagem*/
+.celula_ml img {
+	border:none;
+	width:100px;
+	/*height:100px;*/
+	margin-bottom:2px;
+}
+
+/*Título das ofertas*/
+.title_ml {
+	font-size:16px;
+	line-height:120%;
+	text-align:center;
+}
+
+/*Preço das ofertas*/
+.preco_ml {
+	color: #FF0000;
+	font-size: 16px;
+	font-weight:700;
+	margin:2px 0 0;
+}
+  
+.celula_ml .myButton {
+	-moz-box-shadow: 0px 1px 0px 0px #fff6af;
+	-webkit-box-shadow: 0px 1px 0px 0px #fff6af;
+	box-shadow: 0px 1px 0px 0px #fff6af;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffec64), color-stop(1, #ffab23));
+	background:-moz-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-webkit-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-o-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:-ms-linear-gradient(top, #ffec64 5%, #ffab23 100%);
+	background:linear-gradient(to bottom, #ffec64 5%, #ffab23 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffec64', endColorstr='#ffab23',GradientType=0);
+	background-color:#ffec64;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #ffaa22;
+	display:inline-block;
+	cursor:pointer;
+	color:#333333;
+	font-family:arial;
+	font-size:14px;
+	font-weight:bold;
+	padding:0px 10px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffee66;
+}
+.celula_ml .myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffab23), color-stop(1, #ffec64));
+	background:-moz-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-webkit-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-o-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:-ms-linear-gradient(top, #ffab23 5%, #ffec64 100%);
+	background:linear-gradient(to bottom, #ffab23 5%, #ffec64 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab23', endColorstr='#ffec64',GradientType=0);
+	background-color:#ffab23;
+}
+.celula_ml .myButton:active {
+	position:relative;
+	top:1px;
+}
